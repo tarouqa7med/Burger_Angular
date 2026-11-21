@@ -1,0 +1,23 @@
+section {
+        background-color: #73281a;
+
+        .container {
+                width: 90%;
+
+                form {
+                        max-width: 500px;
+
+                        input {
+                                height: 50px;
+                        }
+                        textarea {
+                                height: 150px;
+                        }
+                        button {
+                                border: 1px solid white;
+                                background-color: transparent;
+                                padding: 6px;
+                        }
+                }
+        }
+}

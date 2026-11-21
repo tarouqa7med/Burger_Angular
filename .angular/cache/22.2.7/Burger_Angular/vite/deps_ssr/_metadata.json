@@ -1,0 +1,80 @@
+{
+  "hash": "8bb58a46",
+  "configHash": "103edd76",
+  "lockfileHash": "3d9cf2df",
+  "browserHash": "95a3dcee",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "61ecee89",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "c321155e",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "5a9f119e",
+      "needsInterop": false
+    },
+    "@angular/platform-server/init": {
+      "src": "../../../../../../node_modules/@angular/platform-server/fesm2022/init.mjs",
+      "file": "@angular_platform-server_init.js",
+      "fileHash": "091b27c1",
+      "needsInterop": false
+    },
+    "@angular/ssr": {
+      "src": "../../../../../../node_modules/@angular/ssr/fesm2022/ssr.mjs",
+      "file": "@angular_ssr.js",
+      "fileHash": "da0b5d0f",
+      "needsInterop": false
+    },
+    "@angular/ssr/node": {
+      "src": "../../../../../../node_modules/@angular/ssr/fesm2022/node.mjs",
+      "file": "@angular_ssr_node.js",
+      "fileHash": "8bdd672c",
+      "needsInterop": false
+    },
+    "express": {
+      "src": "../../../../../../node_modules/express/index.js",
+      "file": "express.js",
+      "fileHash": "432b1027",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "bundled-domino-BIpWWdja": {
+      "file": "bundled-domino-BIpWWdja.js",
+      "isDynamicEntry": false
+    },
+    "common-imllTFmD": {
+      "file": "common-imllTFmD.js",
+      "isDynamicEntry": false
+    },
+    "core-DhJ3xqxv": {
+      "file": "core-DhJ3xqxv.js",
+      "isDynamicEntry": false
+    },
+    "platform-browser-CgurQC8f": {
+      "file": "platform-browser-CgurQC8f.js",
+      "isDynamicEntry": false
+    },
+    "rolldown-runtime-DYf_mQCB": {
+      "file": "rolldown-runtime-DYf_mQCB.js",
+      "isDynamicEntry": false
+    },
+    "ssr-QW5V8zMp": {
+      "file": "ssr-QW5V8zMp.js",
+      "isDynamicEntry": false
+    },
+    "xhr2-Z3iAOjXs": {
+      "file": "xhr2-Z3iAOjXs.js",
+      "isDynamicEntry": true
+    }
+  }
+}

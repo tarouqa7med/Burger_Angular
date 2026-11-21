@@ -1,0 +1,17 @@
+header {
+        height: 100vh;
+        background: #3e3e3e;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+                transform: translateY(75px);
+                color: white;
+                img {
+                        width: 100%;
+                        max-width: 200px;
+                }
+        }
+}

@@ -1,0 +1,44 @@
+.navbar {
+        border-bottom: 1px solid white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        .container {
+                width: 90%;
+
+                .navbar-brand {
+                        img {
+                                width: 150px;
+                        }
+                }
+                button {
+                        border-color: white;
+                        flex-direction: column;
+                        box-shadow: none;
+                        row-gap: 6px;
+                        padding-block: 8px;
+                        span {
+                                width: 25px;
+                                height: 2px;
+                                background-color: white;
+                        }
+                }
+                .navbar-collapse {
+                        ul {
+                                li {
+                                        font-size: 20px;
+                                        a {
+                                                width: fit-content;
+                                                margin: auto;
+                                                color: white;
+                                                transition-duration: 200ms;
+                                                &:hover {
+                                                        color: aqua;
+                                                }
+                                        }
+                                }
+                        }
+                }
+        }
+}

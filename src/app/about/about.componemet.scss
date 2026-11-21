@@ -1,0 +1,46 @@
+section {
+        background: #73281a;
+        color: white;
+
+        .container {
+                width: 90%;
+
+                .part1 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+        
+                        h1 {
+                                font-size: 50px;
+                        }
+        
+                        h5 {
+                                font-size: 15px;
+                        }
+        
+                        p {
+                                letter-spacing: 2px;
+                                line-height: 30px;
+                                font-size: 14px;
+        
+                                span {
+                                        background-color: #ff894f;
+                                }
+                        }
+                }
+        
+                .part2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+        
+                        img {
+                                transition-duration: 200ms;
+        
+                                &:hover {
+                                        filter: drop-shadow(0 0 10px cyan);
+                                }
+                        }
+                }
+        }
+}
